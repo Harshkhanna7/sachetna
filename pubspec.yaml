@@ -1,0 +1,28 @@
+name: new_sachetna  # Your project name
+description: A Flutter app that includes features for sending SMS messages and self-awareness services.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_sms:
+    path: packages/flutter_sms # Relative path to the local flutter_sms package
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
